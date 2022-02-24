@@ -34,10 +34,10 @@ namespace VisualProgramming
                             {
                                 counter += 1;
                             }
-                            Console.WriteLine("customers = {0}", string.Join(", ", customers));
-                            Console.WriteLine("cassiers = {0}", n);
-                            Console.WriteLine("result = {0}\n", (counter / n));
-                            return 0;
+                            //Console.WriteLine("customers = {0}", string.Join(", ", customers));
+                            //Console.WriteLine("cassiers = {0}", n);
+                            //Console.WriteLine("result = {0}\n", (counter / n));
+                            return counter / n;
                         }
                         else if (index < customers.Length - 1)
                         {
